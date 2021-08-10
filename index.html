@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <title>Bithday check</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Is your birthday is Lucky or not ?</h1>
+        <br>
+        <br>
+        <br>
+        <a href="#container"><i class="fas fa-angle-down bounce"></i></a>
+    </header>
+
+    <div id="container" class="container">
+        <div class="notice">
+            <div class="alert"><b>Privacy Notice!</b> We are not storing your data<i style="cursor : pointer;" id="close" class="fas fa-times"></i></div>
+        </div>
+        
+       
+        <div class="form">
+
+            <div class="form-group">
+                <label for="birth-date"><b>Enter your Birthday Date</b></label>
+                <input id="birth-date" class="birth-date" type="date" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="lucky-num"><b>Enter your Lucky Number</b></label>
+                <input id="lucky-num" class="lucky-num" type="number" required>
+            </div>
+    
+            <button class="check">Check</button>
+
+            <div class="error">Please enter the DOB and the Lucky Number correctly.</div>
+
+            <div class="output"></div>
+
+        </div>
+
+        <div class="footer">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/devananthnkl">
+                    <i class="fab fa-twitter"></i></a>
+                </li>
+                
+                <li>
+                    <a href="https://github.com/Devananth">
+                    <i class="fab fa-github"></i></a>
+                </li>
+                
+                <li>
+                    <a href="https://www.linkedin.com/in/devananth-a-60634219a/">
+                    <i class="fab fa-linkedin-in"></i></a>
+                </li>
+                
+            </ul>
+        </div>
+        
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

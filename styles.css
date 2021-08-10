@@ -1,0 +1,131 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+body{
+    background-color :white;
+    max-width: 500px;
+    margin : auto;
+    text-align: center;
+    font-family : sans-serif;
+}
+
+a{
+    text-decoration : none;
+}
+
+header{
+    margin : 2rem;
+    margin-top : 17rem;
+    min-height: 100vh;
+}
+
+.fa-angle-down{
+    font-size: 3rem;
+    padding:0 0 1rem;
+    position: relative;
+}
+
+
+@keyframes bounceArrow{
+    0%{ transform: translateY(-5px);}
+    50%{transform: translateY(5px);}
+    100%{transform: translateY(0px);}
+    
+}
+
+.bounce{
+    animation-duration: 500ms;
+    animation-name: bounceArrow;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+.form{
+    border : 1px solid black;
+    background-color : #caf0f8;
+    border-radius: 20px;
+}
+
+.container{
+    min-height : 100vh;
+    display : flex;
+    flex-direction : column;
+    justify-content: center;
+}
+
+
+
+label{
+    display : block;
+    margin : 1rem;
+    font-weight: 40px;
+    font-size : 1rem;;
+}
+
+input {
+    padding : 1rem;
+    border-radius: 5px;
+    border : none;
+
+}
+
+input:focus{
+    border : 1px solid yellow;
+}
+
+button{
+    display : inline-block;
+    margin : 1rem;
+    padding : .5rem;
+    width : 28%;
+    background-color : blue;
+    color : white;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color : white;
+    color : black;
+}
+
+.output {
+    margin : 1rem;
+    margin-top: 0;
+}
+
+
+.alert {
+    margin : 1rem;
+    border : 1px solid red;
+    padding : 1rem;
+
+}
+
+.footer li i{
+    font-size : 1.5rem;
+    cursor: pointer;
+}
+
+.error{
+    padding : 1rem;
+    font-weight: bold;
+    display : none;    
+}
+
+.output{
+    font-weight: bold;
+    padding : 1rem;
+}
+
+
+ul{
+    display : flex;
+    justify-content:space-between;
+    margin-top : 2rem;
+    list-style-type: none;
+    padding : 1rem;
+}
+
