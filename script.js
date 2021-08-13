@@ -22,7 +22,7 @@ btn.addEventListener('click', () => {
 
     console.log(num,dob);
 
-    if(dob && num)
+    if(dob && num && num>0)
     {
     }
     else
