@@ -6,6 +6,8 @@ var btn = document.querySelector(".check");
 
 var error = document.querySelector('.error');
 
+var opt = document.querySelector('.output');
+
 var closeNotice = document.querySelector("#close");
 
 closeNotice.addEventListener('click' , () => {
@@ -16,7 +18,7 @@ btn.addEventListener('click', () => {
     
     clearError();
   
-    document.querySelector('.output').style.display = "none";
+    opt.style.display = "none";
 
     var dob = DOB.value;
 
@@ -45,11 +47,11 @@ btn.addEventListener('click', () => {
     num = Math.abs(Number(num));
 
     if(sum%num==0)
-      document.querySelector('.output').innerHTML = ("Hurrah 🥳 ! Your DOB is lucky");
+      opt.innerHTML = ("Hurrah 🥳 ! Your DOB is lucky");
     else
-    document.querySelector('.output').innerHTML = ("No , It's not lucky enough ! 😭☹");
+      opt.innerHTML = ("No , It's not lucky enough ! 😭☹");
   
-   document.querySelector('.output').style.display = "block";
+   opt.style.display = "block";
 
 });
 
