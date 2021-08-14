@@ -48,6 +48,8 @@ btn.addEventListener('click', () => {
       document.querySelector('.output').innerHTML = ("Hurrah 🥳 ! Your DOB is lucky");
     else
     document.querySelector('.output').innerHTML = ("No , It's not lucky enough ! 😭☹");
+  
+   document.querySelector('.output').style.display = "block";
 
 });
 
