@@ -15,6 +15,8 @@ closeNotice.addEventListener('click' , () => {
 btn.addEventListener('click', () => {
     
     clearError();
+  
+    document.querySelector('.output').style.display = "none";
 
     var dob = DOB.value;
 
